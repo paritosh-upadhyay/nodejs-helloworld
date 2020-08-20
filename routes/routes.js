@@ -1,7 +1,7 @@
-var appRouter = function(app) {
+var appRoute = function(app) {
 	app.get("/", function(req, res) {
     		res.send("Hello World");
 	});
 }
 
-module.exports = appRouter;
+module.exports = appRoute;
